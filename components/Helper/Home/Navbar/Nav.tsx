@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { navLinks } from "@/constant/constant"; // Ensure this has the appropriate section IDs
+import { navLinks } from "@/constant/constant";
 import Link from "next/link";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
