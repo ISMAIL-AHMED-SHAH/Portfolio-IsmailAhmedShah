@@ -1,20 +1,20 @@
 export const BaseInfo = {
-    name: "Ismail",
-    position: "Full Stack Web Developer",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
-    profilePic: "/images/hero.png",
-  };
-  
-  export const aboutInfo = {
-    title: "Crafting Web Application with Passion and Precision",
-    description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-    client: "50+",
-    experience: "3+",
-    project: "200+",
-    website: "100+",
-  };
+  name: "Ismail",
+  position: "Full Stack Web Developer",
+  description:
+    "With a passion for technology and a keen eye for design, I seamlessly blend front-end and back-end development to create dynamic and user-friendly web applications. I am committed to delivering innovative solutions that exceed my clients' expectations.",
+  profilePic: "/images/hero.png",
+};
+
+export const aboutInfo = {
+  title: "Crafting Exceptional Web Experiences with Precision and Passion",
+  description:
+    "At the heart of my work lies a deep commitment to transforming the digital landscape. My talented team of designers and developers are dedicated to crafting tailored web solutions that elevate your online presence and help your business thrive. Through a fusion of creativity, technical expertise, and a relentless pursuit of excellence, we deliver web experiences that captivate and engage your audience, driving measurable results.",
+  client: "20+",
+  experience: "2+",
+  project: "100+",
+  website: "40+",
+};
   
   export const servicesData = [
     {
@@ -251,15 +251,3 @@ export const BaseInfo = {
     linkedin: "https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/",
     address: "Karachi , Pakistan",
   };
-
-  export const navLinks = [
-    { id: 1, label: "Home", url: "#hero" },
-    { id: 2, label: "About", url: "#about" },
-    { id: 3, label: "Services", url: "#services" },
-    { id: 4, label: "Projects", url: "#projects" },
-    { id: 5, label: "Skills", url: "#skills" },
-    { id: 6, label: "Reviews", url: "#reviews" },
-    { id: 7, label: "Blog", url: "#blog" },
-    { id: 8, label: "Contact", url: "#contact" },
-  ];
-  
