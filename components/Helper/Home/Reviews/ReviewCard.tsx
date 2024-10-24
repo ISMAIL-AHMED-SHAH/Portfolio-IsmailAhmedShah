@@ -18,13 +18,13 @@ const ReviewCard = ({review}:Props) => {
     <div className='rounded-md overflow-hidden bg-[#140c1c] m-4'>
       <div className='p-6'>
         <img
-        src='/image/q.png'
+        src='/images/q.png'
         alt='image'
         width={50}
         height={50}/>
         <p className='text-white text-opacity-70'>{clientReviews}</p>
         <img
-        src='/image/q.png'
+        src='/images/q.png'
         alt='image'
         width={50}
         height={50}

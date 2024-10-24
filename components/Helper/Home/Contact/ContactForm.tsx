@@ -22,6 +22,7 @@ const ContactForm = () => {
                     <option value="frontend">Frontend Development</option>
                     <option value="backendend">Backend Development</option>
                     <option value="fullstack">Fullstack Development</option>
+                    <option value="fullstack">Other</option>
                 </select>
             </div>
             <textarea className='w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none' rows={7} placeholder='Message'>

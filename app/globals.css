@@ -36,4 +36,9 @@
         background: #c277fa;
         border-radius: 4px;
     }
+
+    html {
+        scroll-behavior: smooth;
+      }
+      
 }

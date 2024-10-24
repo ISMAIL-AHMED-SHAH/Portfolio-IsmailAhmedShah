@@ -36,8 +36,8 @@ export default function RootLayout({
         </div>
         <ResponsiveNav/>
         {children}
-        <Footer/>
         <ScrolltoTop/>
+
       </body>
     </html>
   );

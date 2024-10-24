@@ -74,82 +74,87 @@ export const BaseInfo = {
   export const projectData = [
     {
       id: 1,
-      image: "/images/p1.png",
-      url: "https://agency-opal-eight.vercel.app/",
+      image: "/images/hello-coders.png",
+      url: "https://hello-coders-coding-school.vercel.app/",
     },
     {
       id: 2,
-      image: "/images/p2.png",
-      url: "https://burger-pearl.vercel.app/",
+      image: "/images/HTML-Portfolio.png",
+      url: "https://portfolio-html-css-psi-murex.vercel.app/#/",
     },
     {
       id: 3,
-      image: "/images/p3.png",
-      url: "https://game-ecommerce-yt.vercel.app/",
+      image: "/images/gov-sindh-clone.png",
+      url: "https://clone-governorsindh-com.vercel.app//",
     },
     {
       id: 4,
-      image: "/images/p4.png",
-      url: "https://elearning-yt.vercel.app/",
+      image: "/images/snack-game.png",
+      url: "https://snake-game-30-days-of30-projects-next-js.vercel.app//",
     },
     {
       id: 5,
-      image: "/images/p5.png",
-      url: "https://invest-peach.vercel.app/",
+      image: "/images/p30.png",
+      url: "https://audio-player-app-30-days-of-30-projects-next-js.vercel.app/",
     },
     {
       id: 6,
-      image: "/images/p6.png",
-      url: "https://job-chi-ruby.vercel.app/",
+      image: "/images/p29.png",
+      url: "https://random-user-generator-30-days-of30-projects-next-js.vercel.app//",
     },
     {
       id: 7,
-      image: "/images/p7.png",
-      url: "https://wdw-ecom.vercel.app/",
+      image: "/images/p28.png",
+      url: "https://todo-list-30-days-of30-projects-next-js.vercel.app/",
     },
     {
       id: 8,
-      image: "/images/p8.png",
-      url: "https://webhost-ten.vercel.app/",
+      image: "/images/p27.png",
+      url: "https://url-shortner-30-days-of30-projects-next-js.vercel.app/",
+    },
+    {
+      id: 9,
+      image: "/images/weatherapp.png",
+      url: "https://weather-widget-30-daysof-30-projects.vercel.app/",
     },
   ];
   
   export const skillsData = [
     {
       id: 1,
-      title: "React",
-      image: "/images/react.svg",
-      percent: "90%",
+      title: "HTML",
+      image: "/images/html.svg",
+      percent: "80%",
     },
     {
       id: 2,
       title: "CSS",
       image: "/images/css.svg",
-      percent: "97%",
+      percent: "80%",
     },
     {
       id: 3,
       title: "JavaScript",
       image: "/images/js.svg",
-      percent: "77%",
+      percent: "80%",
     },
     {
       id: 4,
       title: "TypeScript",
       image: "/images/ts.svg",
-      percent: "67%",
+      percent: "80%",
     },
     {
       id: 5,
-      title: "HTML",
-      image: "/images/html.svg",
-      percent: "67%",
+      title: "React",
+      image: "/images/react.svg",
+      percent: "70%",
     },
     {
       id: 6,
       title: "Node JS",
       image: "/images/node.svg",
-      percent: "77%",
+      percent: "60%",
     },
     {
       id: 7,
@@ -240,7 +245,21 @@ export const BaseInfo = {
   ];
   
   export const contactData = {
-    phone: "+88(012345 789)",
-    email: "example@gmail.com",
-    address: "Dhaka , Bangladesh",
+    phone: "+92(332-2241405)",
+    whatsapp: "+92(332-2241405)",
+    email: "ismailahmedshahpk@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/",
+    address: "Karachi , Pakistan",
   };
+
+  export const navLinks = [
+    { id: 1, label: "Home", url: "#hero" },
+    { id: 2, label: "About", url: "#about" },
+    { id: 3, label: "Services", url: "#services" },
+    { id: 4, label: "Projects", url: "#projects" },
+    { id: 5, label: "Skills", url: "#skills" },
+    { id: 6, label: "Reviews", url: "#reviews" },
+    { id: 7, label: "Blog", url: "#blog" },
+    { id: 8, label: "Contact", url: "#contact" },
+  ];
+  
