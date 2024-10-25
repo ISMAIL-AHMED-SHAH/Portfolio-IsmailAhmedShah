@@ -2,7 +2,7 @@ export const BaseInfo = {
   name: "Ismail",
   position: "Full Stack Web Developer",
   description:
-    "With a passion for technology and a keen eye for design, I seamlessly blend front-end and back-end development to create dynamic and user-friendly web applications. I am committed to delivering innovative solutions that exceed my clients' expectations.",
+    "With a passion for technology and a keen eye for design, I seamlessly blend front-end and back-end development to create dynamic and user-friendly web applications. I am committed to delivering innovative solutions that exceed my clients&apos; expectations.",
   profilePic: "/images/hero.png",
 };
 
@@ -194,7 +194,7 @@ export const aboutInfo = {
     {
       name: "Jane Smith",
       review:
-        "Highly skilled developers who understand the client's vision and execute perfectly.",
+        "Highly skilled developers who understand the client&apos;s vision and execute perfectly.",
       rating: 4.8,
       profession: "Business Owner",
       image: "/images/u2.jpg",

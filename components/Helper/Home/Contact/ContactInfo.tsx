@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaEnvelope, FaMap, FaPhone, FaWhatsapp, FaLinkedin } from 'react-icons/fa';
-import Contact from './Contact';
 import { contactData } from '@/Data/Data';
 
 const ContactInfo = () => {
