@@ -3,15 +3,15 @@ import Skills from './Skills';
 
 // props type
 type Props={
-    skills: {
-        id: number;
-        title: string;
-        image: string;
-        percent: string;
-    }
+  skill: {
+    id: number;
+    title: string;
+    image: string;
+    percent: string;
 }
-const SkillCard = ({skills}:Props) => {
-    const { image, percent, title} = skills;
+}
+const SkillCard = ({skill}:Props) => {
+    const { image, percent, title} = skill;
   return (
     <div className='p-6 hover:bg-blue-900 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-900'>
       <img src={image} alt={title} width={80} height={80} className='object-cover mx-auto'/>

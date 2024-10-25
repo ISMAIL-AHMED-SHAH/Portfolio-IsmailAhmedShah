@@ -10,6 +10,7 @@ const About = () => {
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* text content */}
         <div data-aos="fade-left" data-aos-anchor-placement="top-center">
+
           <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
             {aboutInfo.title}
           </h1>
@@ -63,8 +64,9 @@ const About = () => {
               {aboutInfo.client}
             </p>
             <p className="text-base sm:text-lg text-gray-400 text-center">
-              Satisfied Customer
-            </p>
+  Satisfied Customers
+</p>
+
           </div>
           {/* 2nd state */}
           <div>

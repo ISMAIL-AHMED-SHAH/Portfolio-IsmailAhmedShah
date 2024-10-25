@@ -9,6 +9,7 @@ type Props = {
     image: string;
   };
 };
+
 const BlogCard = ({ blog }: Props) => {
   const { date, image, summary, title } = blog;
   return (
@@ -30,13 +31,15 @@ const BlogCard = ({ blog }: Props) => {
         <p className="text-sm font-semibold text-opacity-70 text-gray-400">
           {summary}
         </p>
-        <div className="mt-4 mb-4 w-full h-[1.5px] bg-gray-400 opacity-45">
-          <div className="flex items-center justify-between">
-            <h1 className="text-sm text-gray-300 font-bold">{date}</h1>
-            <button className="text-base hover:text-rose-500 text-gray-200 underline font-bold">
-              Read More
-            </button>
-          </div>
+        <div className="mt-4 mb-4 w-full h-[1.5px] bg-gray-400 opacity-45" />
+        <div className="flex items-center justify-between">
+          <h1 className="text-sm text-gray-300 font-bold">{date}</h1>
+          <button
+            className="text-base hover:text-rose-500 text-gray-200 underline font-bold"
+            onClick={() => console.log("Read More clicked")}
+          >
+            Read More
+          </button>
         </div>
       </div>
     </div>

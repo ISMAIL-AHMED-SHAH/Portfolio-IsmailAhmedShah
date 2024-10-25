@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import Image from "next/image";
 import { navLinks } from "@/constant/constant";
 import Link from "next/link";
@@ -8,27 +8,26 @@ type Props = {
   openNav: () => void;
 };
 
-function Nav({ openNav }: Props) {
-  const [navBg, setNavBg] = useState(false);
+const Nav: React.FC<Props> = ({ openNav }) => {
+  const [navBg, setNavBg] = useState<boolean>(false);
 
-  useEffect(() => {
-    const handler = () => {
-      if (window.scrollY >= 90) {
-        setNavBg(true);
-      } else {
-        setNavBg(false);
-      }
-    };
-
-    window.addEventListener("scroll", handler);
-
-    return () => {
-      window.removeEventListener("scroll", handler);
-    };
+  const handleScroll = useCallback(() => {
+    if (window.scrollY >= 90) {
+      setNavBg(true);
+    } else {
+      setNavBg(false);
+    }
   }, []);
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [handleScroll]);
+
   return (
-    <div
+    <nav
       className={`fixed ${
         navBg ? "bg-[#240b39]" : "bg-transparent"
       } h-[12vh] z-[10] w-full transition-all duration-200`}
@@ -41,28 +40,35 @@ function Nav({ openNav }: Props) {
           width={110}
           height={110}
           className="ml-[-1.5rem] sm:ml-0"
+          priority
         />
         <div className="flex items-center space-x-10">
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((navlink) => (
-              <Link key={navlink.id} href={navlink.url}>
-                <p className="nav_link hover:text-gray-400 transition duration-300">{navlink.label}</p>
+              <Link key={navlink.id} href={navlink.url} passHref>
+                <p className="nav_link hover:text-gray-400 transition duration-300">
+                  {navlink.label}
+                </p>
               </Link>
             ))}
           </div>
           <div className="flex items-center space-x-4">
-            <button className="md:px-10 md:py-3 px-8 py-3 text-blue-950 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
+            <button
+              className="md:px-10 md:py-3 px-8 py-3 text-blue-950 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg"
+              aria-label="Hire Me"
+            >
               Hire Me
             </button>
             <HiBars3BottomRight
               onClick={openNav}
               className="w-8 h-8 cursor-pointer text-white lg:hidden"
+              aria-label="Open Navigation"
             />
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
-}
+};
 
 export default Nav;

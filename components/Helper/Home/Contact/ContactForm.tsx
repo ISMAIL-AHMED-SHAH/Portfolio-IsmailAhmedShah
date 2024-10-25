@@ -4,7 +4,9 @@ const ContactForm = () => {
   return (
     <div className='bg-[#140c1c] rounded-lg p-4 sm:p-10'>
       <h1 className='text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold pb-1'>Let's Work Together</h1>
-      <p className='text-gray-200 mt-3 lg:text-base text-xs md:sm'>I am excited to learn more about your vision and how I can leverage my expertise to deliver a tailored web solution that exceeds your expectations. Whether you&apos;re looking to enhance your existing digital footprint or kickstart a new online venture, I&apos;m here to guide you through the process and bring your ideas to life.</p>
+      <p className='text-gray-200 mt-3 lg:text-base text-xs md:sm'>
+        I am excited to learn more about your vision and how I can leverage my expertise to deliver a tailored web solution that exceeds your expectations. Whether you&apos;re looking to enhance your existing digital footprint or kickstart a new online venture, I&apos;m here to guide you through the process and bring your ideas to life.
+      </p>
       {/* Input fields */}
       <form className='mt-8 block w-full overflow-hidden'>
         <div className='flex flex-col md:flex-row items-center justify-between gap-4'>
@@ -17,16 +19,19 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <select className='w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none'>
-            <option value="" disabled selected>How can I assist you?</option>
-            <option value="frontend">Frontend Development</option>
-            <option value="backendend">Backend Development</option>
-            <option value="fullstack">Fullstack Development</option>
-            <option value="other">Other</option>
+          <select defaultValue="" className='w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none'>
+            <option value="" disabled>
+              How can I assist you?
+            </option>
+            <option value="frontend" key="frontend">Frontend Development</option>
+            <option value="backend" key="backend">Backend Development</option>
+            <option value="fullstack" key="fullstack">Fullstack Development</option>
+            <option value="other" key="other">Other</option>
           </select>
         </div>
-        <textarea className='w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none' rows={7} placeholder='Share your vision and requirements'>
-        </textarea>
+        
+        <textarea className='w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none' rows={7} placeholder='Share your vision and requirements' />
+
         <div className='mt-4'>
           <button className='px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full'>
             Let&apos;s Get Started
