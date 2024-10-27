@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
+import Image from 'next/image'
 
 //props type
 type Props={
@@ -17,13 +18,13 @@ const ReviewCard = ({review}:Props) => {
   return (
     <div className='rounded-md overflow-hidden bg-[#140c1c] m-4'>
       <div className='p-6'>
-        <img
+        <Image
         src='/images/q.png'
         alt='image'
         width={50}
         height={50}/>
         <p className='text-white text-opacity-70'>{clientReviews}</p>
-        <img
+        <Image
         src='/images/q.png'
         alt='image'
         width={50}
@@ -38,7 +39,7 @@ const ReviewCard = ({review}:Props) => {
       <div className='bg-gray-100'>
         <div className='p-6 flex items-center space-x-6'>
             <div>
-                <img src={image} alt={name} width={40} height={40} className='rounded-full'/>
+                <Image src={image} alt={name} width={40} height={40} className='rounded-full'/>
                 <div>
                     <h1 className='text-lg font-bold'>{name}</h1>
                     <p className='text-base text-gray-700'>{profession}</p>

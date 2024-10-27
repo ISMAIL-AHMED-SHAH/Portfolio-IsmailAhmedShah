@@ -3,9 +3,9 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div className='bg-[#140c1c] rounded-lg p-4 sm:p-10'>
-      <h1 className='text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold pb-1'>Let's Work Together</h1>
+      <h1 className='text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold pb-1'>Let&apos;s Work Together</h1>
       <p className='text-gray-200 mt-3 lg:text-base text-xs md:sm'>
-        I am excited to learn more about your vision and how I can leverage my expertise to deliver a tailored web solution that exceeds your expectations. Whether you&apos;re looking to enhance your existing digital footprint or kickstart a new online venture, I&apos;m here to guide you through the process and bring your ideas to life.
+        I am excited to learn more about your vision and how I can leverage my expertise to deliver a tailored web solution that exceeds your expectations. Whether you are looking to enhance your existing digital footprint or kickstart a new online venture, I am here to guide you through the process and bring your ideas to life.
       </p>
       {/* Input fields */}
       <form className='mt-8 block w-full overflow-hidden'>

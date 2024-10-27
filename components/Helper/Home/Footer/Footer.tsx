@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const navLinks = [
@@ -22,7 +23,7 @@ const NavLink = ({ href, label }: { href: string, label: string }) => (
 const Footer = () => {
   return (
     <div className="pt-16 pb-16 bg-[#0f0715]">
-      <img src="/images/logo.png" alt="logo" width={130} height={150} className="mx-auto" />
+      <Image src="/images/logo.png" alt="logo" width={130} height={150} className="mx-auto" />
 
       <div className="flex items-center flex-wrap justify-center space-x-10 space-y-4 text-white font-bold">
         {navLinks.map((link, index) => (

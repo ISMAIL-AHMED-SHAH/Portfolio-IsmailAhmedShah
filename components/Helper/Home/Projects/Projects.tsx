@@ -2,6 +2,7 @@ import React from 'react'
 import SectionHeading from '../../SectionHeading'
 import { projectData } from '@/Data/Data'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Projects = () => {
   return (
@@ -17,7 +18,7 @@ const Projects = () => {
             data-aos-delay={`${i * 150}`}
             key={project.id} className='bg-blue-950 p-6 rounded-lg hover:scale-105 transition-all duration-300'>
                 <Link href={project.url} target='blank'>
-                <img src={project.image} alt='project' width={300} height={200} className='w-full'/>
+                <Image src={project.image} alt='project' width={300} height={200} className='w-full'/>
                 </Link>
             </div>
         })}
@@ -27,4 +28,3 @@ const Projects = () => {
 }
 
 export default Projects
-Projects

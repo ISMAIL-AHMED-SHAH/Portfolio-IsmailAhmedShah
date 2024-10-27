@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -14,7 +15,7 @@ const BlogCard = ({ blog }: Props) => {
   const { date, image, summary, title } = blog;
   return (
     <div className="bg-indigo-900 rounded-md overflow-hidden">
-      <img
+      <Image
         src={image}
         alt={title}
         width={300}

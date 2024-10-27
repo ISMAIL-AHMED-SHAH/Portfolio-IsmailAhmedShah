@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeading from "../../SectionHeading";
 import { aboutInfo } from "@/Data/Data";
 import { FaCheck } from "react-icons/fa";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -53,7 +54,7 @@ const About = () => {
         >
           {/* 1st state */}
           <div>
-            <img
+            <Image
               src="/images/customer.png"
               alt="image"
               width={80}
@@ -70,7 +71,7 @@ const About = () => {
           </div>
           {/* 2nd state */}
           <div>
-            <img
+            <Image
               src="/images/experience.png"
               alt="image"
               width={80}
@@ -86,7 +87,7 @@ const About = () => {
           </div>
           {/* 3rd state */}
           <div>
-            <img
+            <Image
               src="/images/completed.png"
               alt="image"
               width={80}
@@ -103,7 +104,7 @@ const About = () => {
 
           {/* 4th state */}
           <div>
-            <img
+            <Image
               src="/images/rocket.png"
               alt="image"
               width={80}

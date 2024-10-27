@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import {Sora} from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Helper/Home/Navbar/ResponsiveNav";
-import Footer from "@/components/Helper/Home/Footer/Footer";
 import ScrolltoTop from "@/components/Helper/ScrolltoTop";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -13,8 +12,8 @@ const font = Sora({
 
 
 export const metadata: Metadata = {
-  title: "Portfolio Izmail",
-  description: "Izmail portfolio with  Next.js",
+  title: "Portfolio Ismail",
+  description: "Ismail portfolio with  Next.js",
 };
 
 export default function RootLayout({

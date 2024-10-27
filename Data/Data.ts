@@ -176,9 +176,9 @@ export const skillsData = [
   },
   {
     id: 10,
-    title: "Vue",
-    image: "/images/vue.svg",
-    percent: "35%",
+    title: "Next.js",
+    image: "/images/nextimage.jpeg",
+    percent: "65%",
   },
 ];
 
