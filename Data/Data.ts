@@ -94,24 +94,24 @@ export const projectData = [
   },
   {
     id: 5,
-    image: "/images/p30.png",
-    url: "https://audio-player-app-30-days-of-30-projects-next-js.vercel.app/",
-  },
-  {
-    id: 6,
-    image: "/images/p29.png",
-    url: "https://random-user-generator-30-days-of30-projects-next-js.vercel.app//",
-  },
-  {
-    id: 7,
-    image: "/images/p28.png",
-    url: "https://todo-list-30-days-of30-projects-next-js.vercel.app/",
-  },
-  {
-    id: 8,
     image: "/images/p27.png",
-    url: "https://url-shortner-30-days-of30-projects-next-js.vercel.app/",
-  },
+  url: "https://url-shortner-30-days-of30-projects-next-js.vercel.app/",
+},
+    {
+      id: 6,
+      image: "/images/recipe.png",
+      url: "https://recipe-search-30-days-of30-projects-next-js.vercel.app/",
+    },
+    {
+      id: 7,
+      image: "/images/p28.png",
+      url: "https://todo-list-30-days-of30-projects-next-js.vercel.app/",
+    },
+    {
+      id: 8,
+      image: "/images/p29.png",
+      url: "https://random-user-generator-30-days-of30-projects-next-js.vercel.app//",
+    },
   {
     id: 9,
     image: "/images/weatherapp.png",
