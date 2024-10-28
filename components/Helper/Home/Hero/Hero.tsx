@@ -33,8 +33,8 @@ const Hero = () => {
           {/* image content */}
           <div 
           data-aos="zoom-in" data-aos-delay="400"
-          className='mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden'>
-            <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={500} height={500} />
+          className='mx-auto hidden lg:block rounded-full border-[3.5px] border-blue-950 overflow-x-hidden'>
+            <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={300} height={400} />
           </div>
         </div>
       </div>
