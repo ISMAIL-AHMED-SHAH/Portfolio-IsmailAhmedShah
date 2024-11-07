@@ -20,8 +20,8 @@ const Hero = () => {
             </p>
             <button data-aos="zoom-in" data-aos-delay="300" className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2'>
   <a
-    href="/cv/cv.pdf"
-    download="Ismail_Ahmed_Shah_CV.pdf" // Sets the downloaded file name
+    href="/images/CV.png"
+    download="Ismail_Ahmed_Shah_CV.png"
     className="flex items-center space-x-2 text-white"
   >
     <span>Download CV</span>

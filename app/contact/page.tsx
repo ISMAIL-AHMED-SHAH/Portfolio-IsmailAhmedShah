@@ -7,7 +7,7 @@ function ContactPage() {
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-gray-100 p-4">
             <div className="max-w-3xl w-full p-8 rounded-lg shadow-2xl bg-gray-800 border border-gray-700 transition-all hover:border-purple-500 hover:shadow-purple-500/50">
                 <div className="text-center">
-                    <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold pb-1">Contact Me Personally</h1>
+                    <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold pb-1">Contact for an Instant Reply</h1>
                     <p className="text-lg mb-6">
                         You can reach me at{" "}
                         <a href="mailto:ismailahmedshahpk@gmail.com" className="underline text-blue-400 hover:text-blue-300">
