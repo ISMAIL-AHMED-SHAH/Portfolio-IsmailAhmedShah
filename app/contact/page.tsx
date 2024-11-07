@@ -13,7 +13,7 @@ function ContactPage() {
                         <a href="mailto:ismailahmedshahpk@gmail.com" className="underline text-blue-400 hover:text-blue-300">
                             ismailahmedshahpk@gmail.com
                         </a>{" "}
-                        or call us at{" "}
+                        or call me at{" "}
                         <a href="tel:+923322241405" className="underline text-blue-400 hover:text-blue-300">
                             +923322241405
                         </a>.
