@@ -84,36 +84,46 @@ export const projectData = [
   },
   {
     id: 3,
+    image: "/images/e-commerce.png",
+    url: "https://e-commerce-next-js-black-chi.vercel.app/",
+  },
+  {
+    id: 4,
+    image: "/images/iq-shop.png",
+    url: "https://iq-online-shopping.vercel.app/",
+  },
+  {
+    id: 5,
     image: "/images/gov-sindh-clone.png",
     url: "https://clone-governorsindh-com.vercel.app//",
   },
   {
-    id: 4,
+    id: 6,
     image: "/images/snack-game.png",
     url: "https://snake-game-30-days-of30-projects-next-js.vercel.app//",
   },
   {
-    id: 5,
+    id: 7,
     image: "/images/p27.png",
   url: "https://url-shortner-30-days-of30-projects-next-js.vercel.app/",
 },
     {
-      id: 6,
+      id: 8,
       image: "/images/recipe.png",
       url: "https://recipe-search-30-days-of30-projects-next-js.vercel.app/",
     },
     {
-      id: 7,
+      id: 9,
       image: "/images/p28.png",
       url: "https://todo-list-30-days-of30-projects-next-js.vercel.app/",
     },
     {
-      id: 8,
+      id: 10,
       image: "/images/p29.png",
       url: "https://random-user-generator-30-days-of30-projects-next-js.vercel.app//",
     },
   {
-    id: 9,
+    id: 11,
     image: "/images/weatherapp.png",
     url: "https://weather-widget-30-daysof-30-projects.vercel.app/",
   },
