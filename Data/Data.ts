@@ -134,8 +134,8 @@ export const projectData = [
     },
   {
     id: 13,
-    image: "/images/weatherapp.png",
-    url: "https://weather-widget-30-daysof-30-projects.vercel.app/",
+    image: "/images/explore.jpg",
+    url: "/Explore",
   },
 ];
 
