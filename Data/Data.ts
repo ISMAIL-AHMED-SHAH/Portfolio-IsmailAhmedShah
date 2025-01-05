@@ -89,41 +89,51 @@ export const projectData = [
   },
   {
     id: 4,
+    image: "/images/orbit-blog.png",
+    url: "https://orbit-blogs.vercel.app/",
+  },
+  {
+    id: 5,
+    image: "/images/hekto.png",
+    url: "https://hackathon-02-nu.vercel.app/",
+  },
+  {
+    id: 6,
     image: "/images/iq-shop.png",
     url: "https://iq-online-shopping.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     image: "/images/gov-sindh-clone.png",
     url: "https://clone-governorsindh-com.vercel.app//",
   },
   {
-    id: 6,
+    id: 8,
     image: "/images/snack-game.png",
     url: "https://snake-game-30-days-of30-projects-next-js.vercel.app//",
   },
   {
-    id: 7,
+    id: 9,
     image: "/images/p27.png",
   url: "https://url-shortner-30-days-of30-projects-next-js.vercel.app/",
 },
     {
-      id: 8,
+      id: 10,
       image: "/images/recipe.png",
       url: "https://recipe-search-30-days-of30-projects-next-js.vercel.app/",
     },
     {
-      id: 9,
+      id: 11,
       image: "/images/p28.png",
       url: "https://todo-list-30-days-of30-projects-next-js.vercel.app/",
     },
     {
-      id: 10,
+      id: 12,
       image: "/images/p29.png",
       url: "https://random-user-generator-30-days-of30-projects-next-js.vercel.app//",
     },
   {
-    id: 11,
+    id: 13,
     image: "/images/weatherapp.png",
     url: "https://weather-widget-30-daysof-30-projects.vercel.app/",
   },

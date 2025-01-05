@@ -1,0 +1,171 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Introduction to JavaScript",
+        "slug": "introduction-to-javascript",
+        "description": "Learn the fundamentals of JavaScript, the language of the web, and start building interactive web applications.",
+        "price": 99.99,
+        "instructor": "Ismail Ahmed Shah",
+        "isFeatured": true,
+        "image": "/images/Introduction-to-JavaScript.webp"
+      },
+      {
+        "id": 2,
+        "title": "HTML & CSS Basics",
+        "slug": "html-css-basics",
+        "description": "Get started with web development by mastering HTML and CSS, the building blocks of the web.",
+        "price": 89.99,
+        "instructor": "Hammad Ansari",
+        "isFeatured": false,
+        "image": "/images/HTMLCSS.webp"
+      },
+      {
+        "id": 3,
+        "title": "TypeScript for Beginners",
+        "slug": "typescript-for-beginners",
+        "description": "Get started with TypeScript, the typed superset of JavaScript, and learn how to build robust applications.",
+        "price": 99.99,
+        "instructor": "Filza Sultana",
+        "isFeatured": true,
+        "image": "/images/typescript.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "React for Beginners",
+        "slug": "react-for-beginners",
+        "description": "Dive into React and learn how to create dynamic user interfaces with this powerful JavaScript library.",
+        "price": 99.99,
+        "instructor": "Naimal Salahuddin",
+        "isFeatured": true,
+        "image": "/images/React.png"
+      },
+      {
+        "id": 5,
+        "title": "Advanced CSS Techniques (Tailwind CSS)",
+        "slug": "advanced-css-techniques",
+        "description": "Enhance your CSS skills with advanced techniques including animations, transitions, and responsive design with Tailwind CSS.",
+        "price": 79.99,
+        "instructor": "Fatima Nazia",
+        "isFeatured": true,
+        "image": "images/tailwindcss.png"
+      },
+      {
+        "id": 6,
+        "title": "Node.js and Express",
+        "slug": "nodejs-express",
+        "description": "Build fast and scalable server-side applications using Node.js and Express in this comprehensive course.",
+        "price": 99.99,
+        "instructor": "Fiza Khan",
+        "isFeatured": false,
+        "image": "/images/ExpressNode.png"
+      },
+      {
+        "id": 7,
+        "title": "Data Structures and Algorithms",
+        "slug": "data-structures-algorithms",
+        "description": "Learn essential data structures and algorithms to enhance your programming skills and problem-solving abilities.",
+        "price": 99.99,
+        "instructor": "Kanwal Heer",
+        "isFeatured": true,
+        "image": "/images/DSA.png"
+      },
+      {
+        "id": 8,
+        "title": "Introduction to SQL",
+        "slug": "introduction-to-sql",
+        "description": "Understand the basics of SQL and learn how to manage databases effectively with this introductory course.",
+        "price": 99.99,
+        "instructor": "Zoya Shah",
+        "isFeatured": false,
+        "image": "/images/Introduction-to-SQL.png"
+      },
+      {
+        "id": 9,
+        "title": "Mobile App Development with Flutter",
+        "slug": "mobile-app-development-flutter",
+        "description": "Create beautiful, natively compiled applications for mobile, web, and desktop from a single codebase using Flutter.",
+        "price": 99.99,
+        "instructor": "Nida Rizwan",
+        "isFeatured": true,
+        "image": "/images/create-Hybrid-apps.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Cybersecurity Basics",
+        "slug": "cybersecurity-basics",
+        "description": "Learn the fundamental concepts of cybersecurity and how to protect systems and data from cyber threats.",
+        "price": 99.99,
+        "instructor": "Ismail Ahmed Shah",
+        "isFeatured": false,
+        "image": "/images/cybersecurity.jpeg"
+      },
+      {
+        "id": 11,
+        "title": "Python Programming Essentials",
+        "slug": "python-programming-essentials",
+        "description": "Master the basics of Python programming and discover its applications in web development, data analysis, and more.",
+        "price": 99.99,
+        "instructor": "Sikandar Shah",
+        "isFeatured": false,
+        "image": "/images/python.png"
+      },
+      {
+        "id": 12,
+        "title": "Building Applications with Next.js",
+        "slug": "building-applications-with-nextjs",
+        "description": "Discover how to create powerful web applications using Next.js, a React framework for production.",
+        "price": 99.99,
+        "instructor": "Naimal Salahuddin",
+        "isFeatured": true,
+        "image": "/images/nextjs.webp"
+      },
+      {
+        "id": 13,
+        "title": "React Native for Mobile Development",
+        "slug": "react-native-for-mobile-development",
+        "description": "Learn to build mobile applications using React Native and create cross-platform apps with ease.",
+        "price": 99.99,
+        "instructor": "Iqra Shah",
+        "isFeatured": false,
+        "image": "/images/ReactNative.png"
+      },
+      {
+        "id": 14,
+        "title": "Introduction to Git and GitHub",
+        "slug": "introduction-to-git-github",
+        "description": "Master version control with Git and GitHub, and learn how to collaborate on projects effectively.",
+        "price": 89.99,
+        "instructor": "Nida Rizwan",
+        "isFeatured": false,
+        "image": "/images/git.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Web Accessibility Fundamentals",
+        "slug": "web-accessibility-fundamentals",
+        "description": "Learn the principles of web accessibility and how to create inclusive web experiences for all users.",
+        "price": 99.99,
+        "instructor": "Furqan Khan",
+        "isFeatured": true,
+        "image": "/images/accessibility.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Search Engine Optimization",
+        "slug": "search-engine-optimization",
+        "description": "Learn the principles of Search Engine Optimization (SEO) to boost your website's visibility and rankings on search engines.",
+        "price": 99.99,
+        "instructor": "Okasha Ejaz",
+        "isFeatured": true,
+        "image": "/images/seo.webp",
+        "seo": {
+          "metaTitle": "Search Engine Optimization (SEO) Course | Boost Your Website Rankings",
+          "metaDescription": "Master Search Engine Optimization (SEO) techniques to increase your website's visibility on Google and other search engines. Learn from expert Furqan Khan.",
+          "keywords": ["Search Engine Optimization", "SEO", "Google Rankings", "Website Visibility", "SEO Techniques", "SEO Best Practices"],
+          "author": "Ismail Ahmed Shah"
+        }
+      }
+      
+    ]
+  }
