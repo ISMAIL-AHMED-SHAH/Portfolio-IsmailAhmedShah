@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import coursesData from '@/data/projects.json';
+import Image from 'next/image';
 
 const ExploreMore = () => {
   return (
@@ -9,7 +10,7 @@ const ExploreMore = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
         {coursesData.projects.map((project) => (
           <div key={project.id} className='bg-gray-800 text-white p-6 rounded-lg shadow-lg'>
-            <img src={project.image} alt={project.title} className='w-full h-40 object-cover mb-4 rounded-md' />
+            <Image src={project.image} alt={project.title} className='w-full h-40 object-cover mb-4 rounded-md' />
             <h2 className='text-2xl font-bold mb-2'>{project.title}</h2>
             <p className='mb-4'>{project.description}</p>
             <p className='text-xl font-semibold'>Launched on: {project.date}</p>
